@@ -40,26 +40,26 @@ const ProofSection: React.FC = () => {
     
   ];
 
-  const caseStudies = [
-    {
-      clinic: "Dermatology Associates",
-      metric: "37%",
-      improvement: "more bookings in 60 days",
-      details: "Website redesign + local SEO optimization"
-    },
-    {
-      clinic: "Aesthetic MedSpa",
-      metric: "52%",
-      improvement: "increase in online reviews",
-      details: "Review generation system + reputation management"
-    },
-    {
-      clinic: "Cosmetic Clinic",
-      metric: "41%",
-      improvement: "higher conversion rate",
-      details: "Conversion optimization + targeted advertising"
-    }
-  ];
+  // const caseStudies = [
+  //   {
+  //     clinic: "Dermatology Associates",
+  //     metric: "37%",
+  //     improvement: "more bookings in 60 days",
+  //     details: "Website redesign + local SEO optimization"
+  //   },
+  //   {
+  //     clinic: "Aesthetic MedSpa",
+  //     metric: "52%",
+  //     improvement: "increase in online reviews",
+  //     details: "Review generation system + reputation management"
+  //   },
+  //   {
+  //     clinic: "Cosmetic Clinic",
+  //     metric: "41%",
+  //     improvement: "higher conversion rate",
+  //     details: "Conversion optimization + targeted advertising"
+  //   }
+  // ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = Math.ceil(testimonials.length / 3);
